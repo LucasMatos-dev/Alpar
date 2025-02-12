@@ -1,7 +1,7 @@
-let produto = 5600
+let produto = 1000
 let desconto = 0
-let cupom = "pm"
-let estado = "CE" //10, "RJ" 20, "Outros 30"
+let cupom = "PROMO15"
+let estado = "CE" //SP: 10, RJ: 20, Outros: 30
 let frete = 0
 const icmsMinimo = 12
 const icmsMaximo = 25
@@ -10,7 +10,7 @@ if (cupom == "PROMO15") {
     desconto = 15 
 }
 else if (Math.random () >= 0.5) {
-    desconto = 15
+    desconto = 10
 }
 else {
     desconto = 0

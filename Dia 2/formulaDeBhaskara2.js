@@ -1,4 +1,4 @@
-let a = 0, b = -3, c = 2
+let a = 1, b = -3, c = 2 // Ex: Δ > 0: (1, -3, 2) / Δ = 0: (1, -6, 9)  / Δ < 0: (1, 1, 5)
 let delta = b**2 - 4*a*c
 let bhaskaraPositivo = (-b + delta ** 0.5) / (2*a)
 let bhaskaraNegativo = (-b - delta ** 0.5) / (2*a)
